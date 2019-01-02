@@ -1,6 +1,6 @@
 
 describe('Homepage', function () {
   it('loads successfully', function () {
-    cy.visit('/')
+    cy.visit('http://localhost:8000')
   })
 })
